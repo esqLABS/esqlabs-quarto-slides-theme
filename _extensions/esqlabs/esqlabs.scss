@@ -1,0 +1,181 @@
+/*-- scss:defaults --*/
+
+// fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+$presentation-font-size-root: 30px !default;
+
+// Colors
+$black: rgb(44, 50, 63);
+$white: white;
+$body-color: $black !default;
+$body-bg: $white !default;
+$blue: #26B042 !default;
+$green: #0C87D1 !default;
+$red: #EB1733 !default;
+
+// headings
+$presentation-heading-font: 'Comfortaa', sans-serif !default;
+$presentation-h1-text-shadow: 2px 4px 3px rgba($body-color, 0.3) !default;
+$presentation-h2-text-shadow: 2px 1px 2px rgba($body-color, 0.3) !default;
+$presentation-heading-font-weight: bold !default;
+$presentation-h3-font-size: 1.1em;
+
+// text
+$font-family-sans-serif: 'Open Sans', sans-serif !default;
+
+// code
+$font-family-monospace: 'Fira Code', monospace !default;
+
+
+/*
+// colors
+//$body-bg: #333333 !default;
+//$body-color: #FAFAFA !default;
+$link-color: $body-color !default;
+
+//$code-bg: $body-color !default;
+$code-color: $body-bg !default;
+
+//$code-block-bg: $body-color !default;
+$code-block-border-color: $body-color !default;
+*/
+
+
+
+
+
+/*-- scss:rules --*/
+
+
+
+.picture {
+  border-style: solid;
+  border-width: 3pt;
+  border-color: $body-color;
+  border-radius: 50%;
+  padding: 5pt;
+  height: 50%;
+  width: auto;
+}
+
+#title-slide .subtitle {
+  font-family: $presentation-heading-font;
+  font-size: $presentation-h4-font-size;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#title-slide .quarto-title-author-name {
+  font-size: 0.7em;
+}
+
+#title-slide .quarto-title-affiliation {
+  font-size: 0.7em;
+}
+
+#title-slide .date {
+  font-size: 0.7em;
+}
+
+
+/*
+#title-slide {
+  text-align: left;
+
+  .subtitle,
+  .institute,
+  .quarto-title-affiliation,
+  .quarto-title-author-email {
+    font-style: italic;
+    // font-size: 80%;
+    color: #7F7F7F;
+  }
+
+  .author,
+  .quarto-title-author-name {
+    color: $body-color;
+  }
+
+  .quarto-title-authors {
+    display: flex;
+    justify-content: left;
+
+    .quarto-title-author {
+      padding-left: 0em;
+      padding-right: 0em;
+      width: 100%;
+    }
+  }
+
+  p.author::before,
+  div.quarto-title-author::before {
+    content: "";
+    display: block;
+    border: none;
+    background-color: $body-color;
+    color: $body-color;
+    height: 3px;
+    margin-bottom: 1em;
+  }
+
+  // p, a {
+  //   color: #7F7F7F;
+  // }
+}
+
+.footer {
+  bottom: 10px !important;
+  color: $body-color !important;
+}
+
+/*
+.slide-logo {
+  display: block !important;
+  position: fixed !important;
+  top: 0 !important;
+  right: 10px !important;
+  max-height: 15% !important;
+  height: 100% !important;
+  width: auto !important;
+  color: $body-color !important;
+}
+
+.slide-menu-button {
+  left: 10px !important;
+  bottom: 10px !important;
+}
+
+.slide-number,
+.reveal.has-logo .slide-number {
+  bottom: 10px !important;
+  right: 10px !important;
+  top: unset !important;
+  color: $body-color !important;
+}
+
+.cell-output {
+  border: 1px solid $body-color;
+  border-radius: 4px;
+}
+
+code.sourceCode>span {
+  color: $body-bg !important;
+}
+
+*/ 
+
+.center-x {
+  text-align: center;
+}
+
+.center-xy {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateY(-50%), translateX(-50%);
+  transform: translateY(-50%), translateX(-50%);
+}
