@@ -6,11 +6,26 @@ contributes:
   formats:
     revealjs:
       css: [logo.css]
-      self-contained: true
       slide-number: true
-      highlight-style: github
       theme: esqlabs.scss
       footer: |
         [esqlabs.com](https://esqlabs.com)
       format-resources:
         - esqlabs.svg
+      # code block settings
+      highlight-style: github
+      code-line-numbers: false
+      # figure settings
+      fig-align: center
+      fig-format: retina
+      fig-asp: 0.618
+      fig-dpi: 300
+      fig-width: 7
+      # table settings
+      df-print: kable
+      # rendering settings
+      self-contained: true
+      # execute settings
+      execute:
+        echo: true
+        warning: false
