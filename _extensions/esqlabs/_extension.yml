@@ -22,7 +22,7 @@ contributes:
       fig-dpi: 300
       fig-width: 7
       # table settings
-      df-print: kable
+      df-print: paged
       # rendering settings
       self-contained: true
       # execute settings
