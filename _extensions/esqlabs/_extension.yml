@@ -32,5 +32,4 @@ contributes:
         echo: true
         warning: false
       filters:
-        - reveal-header    
-    
+        - reveal-header
