@@ -3,8 +3,8 @@ title: "A Title"
 subtitle: "A Subtitle"
 date: 2023-01-01
 author: FirstName, LastName
-# institute: |
-#   ![](https://esqlabs.com/wp-content/uploads/2018/05/ESQLABS_final_600px.png){height=50}
+institute: |
+  ![](https://esqlabs.com/wp-content/uploads/2018/05/ESQLABS_final_600px.png){height=100}
 format: esqlabs-revealjs
 ---
 
@@ -15,7 +15,9 @@ format: esqlabs-revealjs
 showtext::showtext_auto()
 ```
 
-## Hello There
+# Hello There
+
+## 
 
 This presentation will show you examples of what you can do with Quarto and [Reveal.js](https://revealjs.com), including:
 
