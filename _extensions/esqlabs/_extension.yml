@@ -22,7 +22,7 @@ contributes:
       df-print: paged
       # rendering settings
       self-contained: true
-      header-logo: esqlabs.svg
+      header-logo: esqlabs.png
       header-logo-link: https://esqlabs.com
       sc-sb-title: true
       output-location: fragment
